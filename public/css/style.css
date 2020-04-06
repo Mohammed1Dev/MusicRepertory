@@ -1,5 +1,6 @@
 body {
 	background: burlywood;
+	z-index: -1;
 }
 
 /* Navbar */
@@ -9,7 +10,9 @@ body {
 	margin-bottom: 0;
 	border-radius: 0;
 }
-
+#nv{
+	margin-top: -155px;
+}
 .navbar-nav > li > a, .navbar-brand {
 	padding-top: 6px !important;
 	padding-bottom: 0 !important;
@@ -84,6 +87,8 @@ body {
 	color: #fff;
 	padding-bottom: 10px;
 	margin-bottom: 15px;
+	height: 100px;
+	opacity: 0.9;
 }
 
 #header .create {

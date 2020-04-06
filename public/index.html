@@ -11,13 +11,15 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/wavystyle.css" rel="stylesheet">
     <script src="http://cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+    <script type="text/javascript" src="js/logoStyle.js"></script>
 
   </head>
 
   <body>
-
-    <nav class="navbar navbar-default">
+    <canvas id="canvas"></canvas>
+    <nav class="navbar navbar-default" id="nv">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -47,7 +49,24 @@
         <div class="container">
           <div class="row">
             <div class="col-md-10">
-                <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Artist...Block <small>Manage Your Story</small></h1>
+              <div class="loader">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+                <h1><!--<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>--> Artist...Block <small>Manage Your Story</small></h1>
             </div>
             <div class="col-md-2">
                 <div class="dropdown create">
